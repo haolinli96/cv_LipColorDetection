@@ -35,6 +35,8 @@ target 'Camera' do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  #pod 'ReactNativeNavigation', :path => '../node_modules/react-native-navigation/ReactNativeNavigation.podspec'
+
   
   # Add the Firebase pod for Google Analytics
   pod 'Firebase/Analytics'
@@ -47,7 +49,16 @@ target 'Camera' do
   pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
     'FaceDetectorMLKit'
   ]
-  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+  #exception of directory may occur
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
+
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
   target 'CameraTests' do
     inherit! :search_paths
