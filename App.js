@@ -13,10 +13,12 @@ export default class App extends PureComponent {
   componentDidMount() {
     // do stuff while splash screen is shown
     // After having done stuff (such as async tasks) hide the splash screen
+    console.log("app.js");
     SplashScreen.hide();
   }
 
   render() {
+    console.log("start");
     return (
       <Container>
         <Screens />

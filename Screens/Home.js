@@ -9,6 +9,9 @@ const Home = ({ navigation }) => {
   const pressCamera = () => {
     navigation.navigate('Camera')
   };
+  const pressRoll = () => {
+    navigation.navigate('Roll')
+  };
 
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
@@ -16,6 +19,10 @@ const Home = ({ navigation }) => {
       <Button rounded info onPress={pressCamera}>
         <Icon name="camera" />
         <Text>Camera</Text>
+      </Button>
+      <Button rounded info onPress={pressRoll}>
+        <Icon name="ios-photos" />
+        <Text>Photo Library</Text>
       </Button>
     </View>
   );

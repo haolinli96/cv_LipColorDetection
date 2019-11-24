@@ -61,6 +61,10 @@ target 'Camera' do
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
 
+  pod 'RNCameraRoll', :path => '../node_modules/react-native-cameraroll'
+
+  pod 'react-native-cameraroll', :path => '../node_modules/@react-native-community/cameraroll'
+
   target 'CameraTests' do
     inherit! :search_paths
     # Pods for testing

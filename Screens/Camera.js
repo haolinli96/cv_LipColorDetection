@@ -2,14 +2,44 @@
 /* eslint-disable prettier/prettier */
 'use strict';
 import React, { PureComponent } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, Modal, Button, Dimensions, Image } from 'react-native';
 import { RNCamera } from 'react-native-camera';
+import CameraRoll, { saveToCameraRoll } from "@react-native-community/cameraroll";
 
+const { width } = Dimensions.get('window')
 
 export default class Camera extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {
+      displayPhoto: false,
+      photoUri: '',
+    };
+    this.takePicture = this.takePicture.bind(this);
+    this.backToCamera = this.backToCamera.bind(this);
+  }
+
+  backToCamera = () => {
+    console.log(this.state.displayPhoto);
+    this.setState({displayPhoto : false});
+  }
+
+  getThisPhoto = async () => {
+    const photo = await CameraRoll.getPhotos({
+      first: 1,
+      assetType: 'Photos',
+    });
+    this.setState({photoUri : photo.edges[0].node.image.uri});
+  }
+
+  uploadPhoto = () => {
+    alert('photo uploaded!');
+  }
 
   render() {
     return (
+      <View style={styles.container}>
+      { !this.state.displayPhoto ?
       <View style={styles.container}>
         <RNCamera
           ref={ref => {
@@ -40,6 +70,16 @@ export default class Camera extends PureComponent {
           </TouchableOpacity>
         </View>
       </View>
+      :
+      <View style={styles.modalContainer}>
+        <Image source={{uri: this.state.photoUri}} style={styles.image}/>
+        <View style={styles.shareButton}>
+          <Button title="Back To Camera" onPress={this.backToCamera} />
+          <Button title="Upload" onPress={this.uploadPhoto} />
+        </View>
+      </View>
+      }
+    </View>
     );
   }
 
@@ -48,9 +88,16 @@ export default class Camera extends PureComponent {
       const options = { quality: 0.5, base64: true };
       const data = await this.camera.takePictureAsync(options);
       console.log(data.uri);
+      await CameraRoll.saveToCameraRoll(data.uri);
+      alert('Success', 'Photo added to cameraRoll');
+      this.getThisPhoto();
+      console.log('after alert');
+      this.setState({displayPhoto: true});
+      console.log(this.state.displayPhoto);
     }
   };
 }
+
 
 const styles = StyleSheet.create({
   container: {
@@ -62,6 +109,21 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-end',
     alignItems: 'center',
+  },
+  image: {
+    flex: 1,
+    resizeMode: 'cover',
+  },
+  modalContainer: {
+    paddingTop: 20,
+    flex: 1,
+  },
+  shareButton: {
+    position: 'absolute',
+    width: width,
+    padding: 10,
+    bottom: 0,
+    left: 0,
   },
   capture: {
     flex: 0,

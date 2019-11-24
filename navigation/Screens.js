@@ -8,6 +8,7 @@ import { createStackNavigator } from 'react-navigation-stack';
 
 import Camera from '../Screens/Camera';
 import Home from '../Screens/Home';
+import Roll from '../Screens/Roll';
 
 const AppStack = createStackNavigator(
   {
@@ -16,6 +17,9 @@ const AppStack = createStackNavigator(
     },
     Camera: {
       screen: Camera,
+    },
+    Roll: {
+        screen: Roll,
     },
   },
   {
