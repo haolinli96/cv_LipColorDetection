@@ -12,8 +12,11 @@
 #import <React/RCTRootView.h>
 #import <Firebase.h>
 #import "RNSplashScreen.h"
+@import UIKit;
+@import Firebase;
 
 @implementation AppDelegate
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

@@ -179,6 +179,8 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-image-picker')
+    implementation project(':react-native-fetch-blob')
     implementation project(':@react-native-community_cameraroll')
     implementation project(':react-native-cameraroll')
     implementation project(':react-native-splash-screen')

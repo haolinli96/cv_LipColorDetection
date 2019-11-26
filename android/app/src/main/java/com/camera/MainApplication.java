@@ -4,6 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.imagepicker.ImagePickerPackage;
+import com.RNFetchBlob.RNFetchBlobPackage;
 import com.reactnativecommunity.cameraroll.CameraRollPackage;
 import com.chrisbianca.cameraroll.RNCameraRollPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;

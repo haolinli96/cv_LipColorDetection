@@ -5,6 +5,8 @@ import React, { PureComponent } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View, Modal, Button, Dimensions, Image } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 import CameraRoll, { saveToCameraRoll } from "@react-native-community/cameraroll";
+import firebase from '@react-native-firebase/app';
+import '@react-native-firebase/storage';
 
 const { width } = Dimensions.get('window')
 
@@ -30,11 +32,32 @@ export default class Camera extends PureComponent {
       assetType: 'Photos',
     });
     this.setState({photoUri : photo.edges[0].node.image.uri});
+    console.log(this.state.photoUri);
   }
 
   uploadPhoto = () => {
+    console.log(this.state.photoUri);
+    //this.uploadImage(this.state.photoUri);
+    const imageRef = firebase.storage().ref('images/001.jpg');
+    let partialUri = this.state.photoUri.toString().slice(5, -7);
+    let photoPATH = 'assets-library://asset/asset.JPG?id=' + partialUri + '&ext=JPG';
+    imageRef.putFile(photoPATH).catch((error) => {
+      console.log(error);
+    });
     alert('photo uploaded!');
   }
+
+  /*  uploadImage = ({ uri, mime = 'image/jpeg' }) => {
+    return new Promise((resolve, reject) => {
+      console.log(uri);
+      const imageRef = firebase.storage().ref('images/001.jpg');
+      let partialUri = uri.toString().slice(5, -7);
+      let photoPATH = 'assets-library://asset/asset.JPG?id=' + partialUri + '&ext=JPG';
+      imageRef.putFile(photoPATH).catch((error) => {
+        console.log(error);
+      });
+    });
+  } */
 
   render() {
     return (
@@ -90,7 +113,7 @@ export default class Camera extends PureComponent {
       console.log(data.uri);
       await CameraRoll.saveToCameraRoll(data.uri);
       alert('Success', 'Photo added to cameraRoll');
-      this.getThisPhoto();
+      await this.getThisPhoto();
       console.log('after alert');
       this.setState({displayPhoto: true});
       console.log(this.state.displayPhoto);

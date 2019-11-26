@@ -16,8 +16,17 @@ import {
   Image,
   Dimensions,
   ScrollView,
+  Platform,
 } from 'react-native';
 import CameraRoll from "@react-native-community/cameraroll";
+import RNFetchBlob from 'react-native-fetch-blob';
+import firebase from '@react-native-firebase/app';
+import '@react-native-firebase/storage';
+
+const Blob = RNFetchBlob.polyfill.Blob;
+const fs = RNFetchBlob.fs;
+window.XMLHttpRequest = RNFetchBlob.polyfill.XMLHttpRequest;
+window.Blob = Blob;
 
 const { width } = Dimensions.get('window')
 
@@ -37,7 +46,7 @@ const Roll = ({ navigation }) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [photos, setPhotos] = useState([]);
   const [indexState, indexSeletction] = useIndexSelection(null);
-
+  const [selectedURI, setSelectedURI] = useState(null);
 
   const getPhotos = () => {
     CameraRoll.getPhotos({
@@ -51,7 +60,55 @@ const Roll = ({ navigation }) => {
     setModalVisible(!modalVisible);
   }
 
+  const uploadImage = ({ uri, mime = 'image/jpeg' }) => {
+      return new Promise((resolve, reject) => {
+        console.log('new Promise')
+        console.log(firebase.storage().maxUploadRetryTime);
+        console.log(selectedURI)
+        //const uploadUri = Platform.OS === 'ios' ? uri.replace('file://', '') : uri
+        //let uploadBlob = null;
+        //const storageRef = firebase.storage().ref();
+        //const string = '{ "foo": 1 }';
+
+        const imageRef = firebase.storage().ref('images/001.jpg');
+        //console.log('path????')
+        //let regex = '/://(.{36})//i';
+        let partialUri = selectedURI.toString().slice(5, -7);
+        //let result = uriPhoto.match(regex);
+        let photoPATH = 'assets-library://asset/asset.JPG?id=' + partialUri + '&ext=JPG';
+
+        imageRef.putFile(photoPATH).catch((error) => {
+          console.log(error);
+        })
+        // fs.readFile(photoPATH, 'base64')
+        // .then(data => {
+        //   console.log(data.empty())
+        //   return Blob.build(data, { type: `${mime};BASE64` })
+        // })
+        // .then((blob) => {
+        //   console.log(blob)
+        //     uploadBlob = blob;
+        //     return imageRef.put(blob, { contentType: 'image/jpeg' })
+        // })
+        // .then(() => {
+        //   console.log('upload blob')
+        //   uploadBlob.close()
+        //   return imageRef.getDownloadURL()
+        // })
+        // .then((url) => {
+        //     resolve(url)
+        // })
+        // .catch((error) => {
+        //     console.log(error)
+        //     reject(error)
+        // })
+      });
+
+  }
+
   const uploadPhoto = () => {
+    console.log(selectedURI);
+    uploadImage(selectedURI);
     alert('photo uploaded!');
   }
 
@@ -79,7 +136,12 @@ const Roll = ({ navigation }) => {
                   style={{opacity: i === indexState ? 0.5 : 1}}
                   key={i}
                   underlayColor="transparent"
-                  onPress={() => indexSeletction(i)}>
+                  onPress={() => {
+                    indexSeletction(i)
+                    console.log(p.node.image.uri);
+                    setSelectedURI(p.node.image.uri)}
+                  }
+                >
                   <Image
                     style={styles.imageView}
                     source={{uri: p.node.image.uri}}

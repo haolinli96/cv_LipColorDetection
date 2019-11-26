@@ -1,7 +1,7 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 # Required by RNFirebase
-pod 'Firebase/Core', '~> 6.12.0'
+pod 'Firebase/Core', '~> 6.8.1'
 
 target 'Camera' do
   # Pods for Camera
@@ -45,12 +45,13 @@ target 'Camera' do
   # For example, to use Firebase Authentication and Cloud Firestore
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
 
   pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
     'FaceDetectorMLKit'
   ]
   #exception of directory may occur
-  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  #pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
@@ -64,6 +65,14 @@ target 'Camera' do
   pod 'RNCameraRoll', :path => '../node_modules/react-native-cameraroll'
 
   pod 'react-native-cameraroll', :path => '../node_modules/@react-native-community/cameraroll'
+
+  pod 'react-native-fetch-blob', :path => '../node_modules/react-native-fetch-blob'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+  
+  pod 'RNFBAuth', :path => '../node_modules/@react-native-firebase/auth'
+  
+  pod 'RNFBStorage', :path => '../node_modules/@react-native-firebase/storage'
 
   target 'CameraTests' do
     inherit! :search_paths
