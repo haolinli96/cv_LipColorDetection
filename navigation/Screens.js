@@ -9,6 +9,7 @@ import { createStackNavigator } from 'react-navigation-stack';
 import Camera from '../Screens/Camera';
 import Home from '../Screens/Home';
 import Roll from '../Screens/Roll';
+import Detection from '../Screens/Detection';
 
 const AppStack = createStackNavigator(
   {
@@ -19,11 +20,14 @@ const AppStack = createStackNavigator(
       screen: Camera,
     },
     Roll: {
-        screen: Roll,
+      screen: Roll,
+    },
+    Detection: {
+      screen: Detection,
     },
   },
   {
-      initialRouteName: 'Home',
+      initialRouteName: 'Detection',
   }
 );
 

@@ -1,0 +1,22 @@
+{
+  "selected":{
+    "l1": {
+     "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw78d6cf2f/images/62510YSL/Swatches/62510YSL_4.jpg?sw=336&sh=444&sm=fit&q=70",
+     "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw6955a35b/images/62510YSL/3365440197480.jpg?sw=640&sh=846&sm=fit&q=70",
+     "brand": "YSL",
+     "name": "04 - Rouge Ballet"
+   },
+    "l2": {
+     "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw447d21f3/images/62510YSL/Swatches/62510YSL_16.jpg?sw=336&sh=444&sm=fit&q=70",
+     "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw7d5f1cbc/images/62510YSL/3365440562141.jpg?sw=336&sh=444&sm=fit&q=70",
+     "brand": "YSL",
+     "name": "16 - Orange Majorelle"
+   },
+   "l3": {
+     "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw762de918/images/62510YSL/Swatches/62510YSL_43.jpg?sw=336&sh=444&sm=fit&q=70",
+     "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwe4ba93ef/images/62510YSL/3614271280237.jpg?sw=336&sh=444&sm=fit&q=70",
+     "brand": "YSL",
+     "name": "43 - Rose Rive Gauche"
+   }
+  }
+}
