@@ -7,8 +7,11 @@ import { RNCamera } from 'react-native-camera';
 import CameraRoll, { saveToCameraRoll } from "@react-native-community/cameraroll";
 import firebase from '@react-native-firebase/app';
 import '@react-native-firebase/storage';
+import '@react-native-firebase/database';
 
-const { width } = Dimensions.get('window')
+const { width } = Dimensions.get('window');
+const db = firebase.database();
+
 
 export default class Camera extends PureComponent {
   constructor(props) {
@@ -35,7 +38,7 @@ export default class Camera extends PureComponent {
     console.log(this.state.photoUri);
   }
 
-  uploadPhoto = () => {
+  uploadPhoto = async (navigation) => {
     console.log(this.state.photoUri);
     //this.uploadImage(this.state.photoUri);
     const imageRef = firebase.storage().ref('images/001.jpg');
@@ -44,7 +47,10 @@ export default class Camera extends PureComponent {
     imageRef.putFile(photoPATH).catch((error) => {
       console.log(error);
     });
+    const id = Math.random().toString(36).substr(2, 9);
+    await db.ref('change').set(id);
     alert('photo uploaded!');
+    navigation.navigate('Detection');
   }
 
   /*  uploadImage = ({ uri, mime = 'image/jpeg' }) => {
@@ -60,6 +66,7 @@ export default class Camera extends PureComponent {
   } */
 
   render() {
+    const { navigation } = this.props;
     return (
       <View style={styles.container}>
       { !this.state.displayPhoto ?
@@ -98,7 +105,7 @@ export default class Camera extends PureComponent {
         <Image source={{uri: this.state.photoUri}} style={styles.image}/>
         <View style={styles.shareButton}>
           <Button title="Back To Camera" onPress={this.backToCamera} />
-          <Button title="Upload" onPress={this.uploadPhoto} />
+          <Button title="Upload" onPress={() => this.uploadPhoto(navigation)} />
         </View>
       </View>
       }

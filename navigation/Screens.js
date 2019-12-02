@@ -27,7 +27,7 @@ const AppStack = createStackNavigator(
     },
   },
   {
-      initialRouteName: 'Detection',
+      initialRouteName: 'Home',
   }
 );
 

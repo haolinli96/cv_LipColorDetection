@@ -22,7 +22,10 @@ import CameraRoll from "@react-native-community/cameraroll";
 import RNFetchBlob from 'react-native-fetch-blob';
 import firebase from '@react-native-firebase/app';
 import '@react-native-firebase/storage';
+import '@react-native-firebase/database';
 
+
+const db = firebase.database();
 const Blob = RNFetchBlob.polyfill.Blob;
 const fs = RNFetchBlob.fs;
 window.XMLHttpRequest = RNFetchBlob.polyfill.XMLHttpRequest;
@@ -106,10 +109,14 @@ const Roll = ({ navigation }) => {
 
   }
 
-  const uploadPhoto = () => {
+  const uploadPhoto = async () => {
     console.log(selectedURI);
     uploadImage(selectedURI);
+    const id = Math.random().toString(36).substr(2, 9);
+    await db.ref('change').set(id);
     alert('photo uploaded!');
+    navigation.navigate('Detection');
+    toggleModal();
   }
 
 
