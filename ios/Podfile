@@ -87,12 +87,3 @@ target 'Camera' do
   use_native_modules!
 end
 
-target 'Camera-tvOS' do
-  # Pods for Camera-tvOS
-
-  target 'Camera-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end

@@ -2,7 +2,7 @@
     "brands": [{
         "name": "YSL",
         "series": [{
-            "name": "莹亮纯魅唇膏",
+            "name": "ROUGE VOLUPTÉ SHINE OIL-IN-STICK",
             "lipsticks": [{
                 "color": "#D62352",
                 "id": "49",
@@ -12,174 +12,200 @@
             }, {
                 "color": "#DC4B41",
                 "id": "14",
-                "name": "一见倾心"
+                "name": "14 - Corail Marrakech",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwdfa0898f/images/62510YSL/Swatches/62510YSL_14.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw4d3862f7/images/62510YSL/3365440237612.jpg?sw=336&sh=444&sm=fit&q=70"
+
             }, {
                 "color": "#B22146",
                 "id": "05",
-                "name": "浮生若梦"
-            }, {
-                "color": "#A25356",
-                "id": "08",
-                "name": "纯真梦幻"
+                "name": "05 - Fuchisa Chiffon",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwed2138bc/images/62510YSL/Swatches/62510YSL_5.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw7b90bf63/images/62510YSL/3365440197558.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#DF3443",
                 "id": "12",
-                "name": "红粉派对"
+                "name": "12 - Corail Dolman",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw83b7ecb3/images/62510YSL/Swatches/62510YSL_12.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw010e8c4c/images/62510YSL/3365440198043.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#E06C68",
                 "id": "15",
-                "name": "珊瑚恋人"
-            }, {
-                "color": "#842C71",
-                "id": "19",
-                "name": "华丽转身"
+                "name": "15 - Corail Spontini",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwe31ca47e/images/62510YSL/Swatches/62510YSL_15.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwef071a22/images/62510YSL/3365440237681.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#D13C4F",
                 "id": "43",
-                "name": "唇印"
+                "name": "43 - Rose Rive Gauche",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw762de918/images/62510YSL/Swatches/62510YSL_43.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwe4ba93ef/images/62510YSL/3614271280237.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#B71D32",
                 "id": "04",
-                "name": "危情禁果"
+                "name": "04 - Rouge Ballet",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw78d6cf2f/images/62510YSL/Swatches/62510YSL_4.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw6955a35b/images/62510YSL/3365440197480.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#DE2361",
                 "id": "06",
-                "name": "情窦初开"
+                "name": "06 - Pink Safari",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwddcac1f2/images/62510YSL/Swatches/62510YSL_6.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw9c32c878/images/62510YSL/3365440197626.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#B05856",
                 "id": "09",
-                "name": "裸色暗恋"
-            }, {
-                "color": "#E06F70",
-                "id": "13",
-                "name": "邂逅巴黎"
+                "name": "09 - Nude Sheer",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw25cfde75/images/62510YSL/Swatches/62510YSL_9.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw952b8b78/images/62510YSL/3365440197831.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#CD4143",
                 "id": "16",
-                "name": "糖果女孩"
-            }, {
-                "color": "#EC6A70",
-                "id": "41",
-                "name": "告白"
-            }, {
-                "color": "#EFE9DE",
-                "id": "42",
-                "name": "初恋"
+                "name": "16 - Orange Majorelle",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw447d21f3/images/62510YSL/Swatches/62510YSL_16.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw7d5f1cbc/images/62510YSL/3365440562141.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#C60F2F",
                 "id": "45",
-                "name": "拥吻"
+                "name": "45 - Rouge Tuxedo",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw8bd6f95d/images/62510YSL/Swatches/62510YSL_45.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw39e7d837/images/62510YSL/3614271280268.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#BB6868",
                 "id": "47",
-                "name": "心跳"
+                "name": "47 - Beige Blouse",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwcee5cf72/images/62510YSL/Swatches/62510YSL_47.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw1194baf6/images/62510YSL/3614271280282.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#E0186B",
                 "id": "50",
-                "name": "约定"
+                "name": "50 - Fuchsia Stiletto",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw33bbd584/images/62510YSL/Swatches/62510YSL_50.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwd76c3314/images/62510YSL/3614271280312.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#D45E85",
                 "id": "52",
-                "name": "游戏"
+                "name": "52 - Trapeze Pink",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw22da1b5e/images/62510YSL/Swatches/62510YSL_52.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwe8f0b2b3/images/62510YSL/3614271280343.jpg?sw=672&sh=888&sm=fit&q=70"
             }, {
                 "color": "#C16E6F",
                 "id": "44",
-                "name": "意外"
+                "name": "44 - Nude Lavalliere",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw20b59015/images/62510YSL/Swatches/62510YSL_44.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw9897abfd/images/62510YSL/3614271280244.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#D1121B",
                 "id": "46",
-                "name": "钟情"
+                "name": "46 - Orange Perfecto",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwe1b262d0/images/62510YSL/Swatches/62510YSL_46.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw50b41b6b/images/62510YSL/3614271280275.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#8E243E",
                 "id": "48",
-                "name": "夜色"
+                "name": "48 - Smoking Plum",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw173ab74e/images/62510YSL/Swatches/62510YSL_48.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwa3326f92/images/62510YSL/3614271280299.jpg?sw=336&sh=444&sm=fit&q=70"
             }, {
                 "color": "#EE7486",
                 "id": "51",
-                "name": "私语"
+                "name": "51 - Rose Saharienne",
+                "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw721edf89/images/62510YSL/Swatches62510YSL/62510YSL_51.jpg?sw=336&sh=444&sm=fit&q=70",
+                "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwdb2f6532/images/62510YSL/3614271280336.jpg?sw=336&sh=444&sm=fit&q=70"
             }]
         }, {
-            "name": "纯口红",
+            "name": "ROUGE PUR COUTURE LIPSTICK",
             "lipsticks": [
                 {
                     "id": "19",
                     "color": "#B13C79",
-                    "name": "玫红色"
+                    "name": "19 - Le Fuchsia",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw37e0f4c7/lipfinderquiz/194YSL/Light/194YSL_LIGHT19.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw01cdcd6d/RCP-Custom-Cap/3365440269330.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "13",
                     "color": "#BB1813",
-                    "name": "正橘色"
+                    "name": "13 - Le Orange",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw8d5aea9d/lipfinderquiz/194YSL/Light/194YSL_LIGHT13.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw99637b08/RCP-Custom-Cap/3365440616592.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "52",
                     "color": "#EA4E59",
-                    "name": "星星色"
+                    "name": "52 - Rouge Rose",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dwde1862b3/lipfinderquiz/194YSL/Light/194YSL_LIGHT52.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw1550b304/RCP-Custom-Cap/3365440269774.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "01",
                     "color": "#B8122B",
-                    "name": "正红色"
+                    "name": "01 - Le Rouge",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw8ea2896a/lipfinderquiz/194YSL/Light/194YSL_LIGHT1.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwfd8340e1/RCP-Custom-Cap/3365440595477.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "17",
                     "color": "#F75E70",
-                    "name": "嫣粉纱丽"
+                    "name": "17 - Rose Dahlia",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw1abb1c1b/lipfinderquiz/194YSL/Light/194YSL_LIGHT17.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw3310117e/RCP-Custom-Cap/3365440616752.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "07",
                     "color": "#CB2276",
-                    "name": "雅紫纱蓉"
+                    "name": "07 - Le Fuchsia",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dwc0f468b9/lipfinderquiz/194YSL/Light/194YSL_LIGHT7.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw2c01c7f1/RCP-Custom-Cap/3365440595910.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "09",
                     "color": "#C27482",
-                    "name": "绛紫丝绒"
-                },
-                {
-                    "id": "11",
-                    "color": "#C06B72",
-                    "name": "藕粉云罗"
-                },
-                {
-                    "id": "16",
-                    "color": "#BB444A",
-                    "name": "绯红香缎"
+                    "name": "09 - Rose Stiletto",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dwcfb2c62e/lipfinderquiz/194YSL/Light/194YSL_LIGHT9.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw46ac4a7a/RCP-Custom-Cap/3365440596030.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "22",
                     "color": "#E86E9F",
-                    "name": "莹亮裸粉"
+                    "name": "22 - Rose Celebration",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dwaa74d446/lipfinderquiz/194YSL/Light/194YSL_LIGHT22.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw97297fd0/RCP-Custom-Cap/3365440269477.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "23",
                     "color": "#DE6F5C",
-                    "name": "杏色府绸"
+                    "name": "23 - Coral Poetique",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw11bd086d/lipfinderquiz/194YSL/Light/194YSL_LIGHT23.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwebee8981/RCP-Custom-Cap/3365440015814.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "26",
                     "color": "#CC6D84",
-                    "name": "堇色流纱"
+                    "name": "26 - Rose Libertin",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dwf80aa497/lipfinderquiz/194YSL/Light/194YSL_LIGHT26.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwde0feb8d/RCP-Custom-Cap/3365440015999.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "36",
                     "color": "#ED695D",
-                    "name": "珊瑚雪纺"
-                },
-                {
-                    "id": "49",
-                    "color": "#DC4D8D",
-                    "name": "想你色"
+                    "name": "36 - Corail Legende",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dwb358c8b4/lipfinderquiz/194YSL/Light/194YSL_LIGHT36.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw089643a0/RCP-Custom-Cap/3365440072008.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "51",
                     "color": "#FA6C55",
-                    "name": "莹亮珊瑚橙"
+                    "name": "51 - Corail Urbain",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw4d1606ca/lipfinderquiz/194YSL/Light/194YSL_LIGHT51.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwce535888/RCP-Custom-Cap/3365440332126.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "56",
                     "color": "#D9100E",
-                    "name": "橙红织锦"
+                    "name": "56 - Orange Indie",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw02822167/lipfinderquiz/194YSL/Light/194YSL_LIGHT56.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwdfa8d79a/RCP-Custom-Cap/3365440358379.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "59",

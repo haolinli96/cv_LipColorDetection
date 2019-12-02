@@ -17,12 +17,15 @@ import {
   Dimensions,
   ScrollView,
   Platform,
+  TouchableOpacity
 } from 'react-native';
 import CameraRoll from "@react-native-community/cameraroll";
 import RNFetchBlob from 'react-native-fetch-blob';
 import firebase from '@react-native-firebase/app';
 import '@react-native-firebase/storage';
 import '@react-native-firebase/database';
+
+console.disableYellowBox = true;
 
 
 const db = firebase.database();
@@ -158,9 +161,11 @@ const Roll = ({ navigation }) => {
             })}
           </ScrollView>
           {indexState !== null && (
-            <View style={styles.shareButton}>
-              <Button title="Upload" onPress={uploadPhoto} />
-            </View>
+            <View style={{ flex: 0, flexDirection: 'row', justifyContent: 'center' }}>
+              <TouchableOpacity onPress={uploadPhoto} style={{ flex: 0, backgroundColor: '#fff', borderRadius: 5, padding: 15, paddingHorizontal: 20, alignSelf: 'center', margin: 5,}}>
+                <Text style={{ fontSize: 16 }}> Upload </Text>
+              </TouchableOpacity>
+          </View>
           )}
         </View>
       </Modal>

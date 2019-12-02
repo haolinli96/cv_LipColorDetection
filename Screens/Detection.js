@@ -3,7 +3,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { ScrollView, Image } from 'react-native';
-import { Container, Header, Content, Card, CardItem, Thumbnail, Text, Button } from 'native-base';
+import { Container, Header, Content, Card, CardItem, Thumbnail, Text, Button, Icon } from 'native-base';
 
 import firebase from '@react-native-firebase/app';
 import '@react-native-firebase/database';
@@ -11,6 +11,7 @@ import '@react-native-firebase/storage';
 
 
 import LipCard from '../Components/LipCard';
+console.disableYellowBox = true;
 
 const db = firebase.database();
 
@@ -44,15 +45,15 @@ const Detection = () => {
   const getData = async () => {
     console.log('////////////');
 
-    const imageRef = firebase.storage().ref('images/0434.jpg');
+    const imageRef = firebase.storage().ref('images/send0.jpg');
     const url = await imageRef.getDownloadURL();
     console.log(url);
     setImageUrl(url);
 
-    db.ref('selected/').on('value', snap => {
+    db.ref('selected/face0/').on('value', snap => {
       console.log('$$$$$$$$');
-      console.log(snap.val());
-      console.log(snap.val().l1.brand);
+      //console.log(snap.val());
+      //console.log(snap.val().l1.brand);
       const arr = [];
       Object.values(snap.val()).map(key => {
         arr.push(key);
@@ -68,7 +69,8 @@ const Detection = () => {
   return (
     <Container>
       <ScrollView>
-        <Button onPress={getData}>
+        <Button iconLeft info onPress={getData}>
+          <Icon type="Entypo" name="shopping-bag" />
           <Text>get lipsticks</Text>
         </Button>
         <Image source={{uri: imageUrl}} style={{height: 430, width: null, flex: 1}}/>

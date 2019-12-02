@@ -2,7 +2,8 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import { View } from 'react-native';
-import { Button, Text } from 'native-base';
+import { Button, Text, Icon } from 'native-base';
+console.disableYellowBox = true;
 
 
 const Home = ({ navigation }) => {
@@ -15,10 +16,15 @@ const Home = ({ navigation }) => {
 
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Button rounded info onPress={pressCamera}>
+      <Button large iconLeft rounded info onPress={pressCamera}>
+        <Icon name="camera" />
         <Text>Camera</Text>
       </Button>
-      <Button rounded info onPress={pressRoll}>
+      <Button transparent>
+        <Text> </Text>
+      </Button>
+      <Button large iconLeft rounded info onPress={pressRoll}>
+        <Icon type="FontAwesome" name="photo" />
         <Text>Photo Library</Text>
       </Button>
     </View>

@@ -2,12 +2,16 @@
 /* eslint-disable prettier/prettier */
 'use strict';
 import React, { PureComponent } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View, Modal, Button, Dimensions, Image } from 'react-native';
+import { StyleSheet, TouchableOpacity, View, Modal, Dimensions, Image } from 'react-native';
+import { Button, Text, Content, Icon, Container, Body, Spinner } from 'native-base';
 import { RNCamera } from 'react-native-camera';
 import CameraRoll, { saveToCameraRoll } from "@react-native-community/cameraroll";
 import firebase from '@react-native-firebase/app';
 import '@react-native-firebase/storage';
 import '@react-native-firebase/database';
+
+console.disableYellowBox = true;
+
 
 const { width } = Dimensions.get('window');
 const db = firebase.database();
@@ -103,9 +107,13 @@ export default class Camera extends PureComponent {
       :
       <View style={styles.modalContainer}>
         <Image source={{uri: this.state.photoUri}} style={styles.image}/>
-        <View style={styles.shareButton}>
-          <Button title="Back To Camera" onPress={this.backToCamera} />
-          <Button title="Upload" onPress={() => this.uploadPhoto(navigation)} />
+        <View style={{ flex: 0, flexDirection: 'row', justifyContent: 'center' }}>
+          <TouchableOpacity onPress={this.backToCamera} style={styles.capture}>
+            <Text style={{ fontSize: 14 }}> Back to Camera </Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => this.uploadPhoto(navigation)} style={styles.capture}>
+            <Text style={{ fontSize: 14 }}> Upload Photo </Text>
+          </TouchableOpacity>
         </View>
       </View>
       }
@@ -149,8 +157,9 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   shareButton: {
+    alignContent: 'center',
     position: 'absolute',
-    width: width,
+    width: 300,
     padding: 10,
     bottom: 0,
     left: 0,

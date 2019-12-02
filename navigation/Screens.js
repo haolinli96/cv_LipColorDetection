@@ -11,6 +11,7 @@ import Home from '../Screens/Home';
 import Roll from '../Screens/Roll';
 import Detection from '../Screens/Detection';
 
+console.disableYellowBox = true;
 const AppStack = createStackNavigator(
   {
     Home: {

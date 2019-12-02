@@ -8,6 +8,8 @@ import SplashScreen from 'react-native-splash-screen';
 import { Container } from 'native-base';
 import firebase from '@react-native-firebase/app';
 
+console.disableYellowBox = true;
+
 /* const iosConfig = {
   clientId: '1000635454383-hjtc4rdvp0nsjuokmqk6d7rbsa1n5nuk.apps.googleusercontent.com',
   appId: '1:1000635454383:ios:c6a67c463f9d1e70ae555a',
