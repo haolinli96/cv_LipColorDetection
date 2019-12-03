@@ -43,15 +43,23 @@ export default class Camera extends PureComponent {
   }
 
   uploadPhoto = async (navigation) => {
+    let promise = new Promise((res, rej) => {
+      setTimeout(() => res("Now it's done!"), 7000)
+  });
+
     console.log(this.state.photoUri);
+    const id = Math.random().toString(36).substr(2, 9);
+    const refString = 'images/' + id + '.jpg';
+    console.log(refString);
     //this.uploadImage(this.state.photoUri);
-    const imageRef = firebase.storage().ref('images/original.jpg');
+    const imageRef = firebase.storage().ref(refString);
     let partialUri = this.state.photoUri.toString().slice(5, -7);
     let photoPATH = 'assets-library://asset/asset.JPG?id=' + partialUri + '&ext=JPG';
     imageRef.putFile(photoPATH).catch((error) => {
       console.log(error);
     });
-    const id = Math.random().toString(36).substr(2, 9);
+
+    let result = await promise;
     await db.ref('change').set(id);
     alert('photo uploaded!');
     navigation.navigate('Detection');

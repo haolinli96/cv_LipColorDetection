@@ -66,7 +66,7 @@ const Roll = ({ navigation }) => {
     setModalVisible(!modalVisible);
   }
 
-  const uploadImage = ({ uri, mime = 'image/jpeg' }) => {
+  const uploadImage = (id) => {
       return new Promise((resolve, reject) => {
         console.log('new Promise')
         console.log(firebase.storage().maxUploadRetryTime);
@@ -76,7 +76,9 @@ const Roll = ({ navigation }) => {
         //const storageRef = firebase.storage().ref();
         //const string = '{ "foo": 1 }';
 
-        const imageRef = firebase.storage().ref('images/original.jpg');
+        const refString = 'images/' + id + '.jpg';
+        console.log(refString);
+        const imageRef = firebase.storage().ref(refString);
         //console.log('path????')
         //let regex = '/://(.{36})//i';
         let partialUri = selectedURI.toString().slice(5, -7);
@@ -113,9 +115,14 @@ const Roll = ({ navigation }) => {
   }
 
   const uploadPhoto = async () => {
+
+    let promise = new Promise((res, rej) => {
+      setTimeout(() => res("Now it's done!"), 7000)
+  });
     console.log(selectedURI);
-    uploadImage(selectedURI);
     const id = Math.random().toString(36).substr(2, 9);
+    uploadImage(id);
+    let result = await promise;
     await db.ref('change').set(id);
     alert('photo uploaded!');
     navigation.navigate('Detection');
