@@ -45,7 +45,7 @@ export default class Camera extends PureComponent {
   uploadPhoto = async (navigation) => {
     console.log(this.state.photoUri);
     //this.uploadImage(this.state.photoUri);
-    const imageRef = firebase.storage().ref('images/001.jpg');
+    const imageRef = firebase.storage().ref('images/original.jpg');
     let partialUri = this.state.photoUri.toString().slice(5, -7);
     let photoPATH = 'assets-library://asset/asset.JPG?id=' + partialUri + '&ext=JPG';
     imageRef.putFile(photoPATH).catch((error) => {

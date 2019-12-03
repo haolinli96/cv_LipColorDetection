@@ -76,7 +76,7 @@ const Roll = ({ navigation }) => {
         //const storageRef = firebase.storage().ref();
         //const string = '{ "foo": 1 }';
 
-        const imageRef = firebase.storage().ref('images/001.jpg');
+        const imageRef = firebase.storage().ref('images/original.jpg');
         //console.log('path????')
         //let regex = '/://(.{36})//i';
         let partialUri = selectedURI.toString().slice(5, -7);

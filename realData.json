@@ -210,691 +210,358 @@
                 {
                     "id": "59",
                     "color": "#B96463",
-                    "name": "裸色薄纱"
-                },
-                {
-                    "id": "207",
-                    "color": "#CA4061",
-                    "name": "珊瑚柚"
+                    "name": "59 - Melon Dor",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw5f7d7dc3/lipfinderquiz/194YSL/Light/194YSL_LIGHT59.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw59756d77/RCP-Custom-Cap/3365440269842.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "208",
                     "color": "#D60846",
-                    "name": "玫红色"
+                    "name": "208 - Fuchsia Fetiche",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw0e4b4ef3/lipfinderquiz/194YSL/Light/194YSL_LIGHT208.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw01cdcd6d/RCP-Custom-Cap/3365440269330.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "27",
                     "color": "#D24379",
-                    "name": "纯真玫红"
+                    "name": "27 - Fuchsia Innocent",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw1181308b/lipfinderquiz/194YSL/Light/194YSL_LIGHT27.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw518a702b/RCP-Custom-Cap/3365440016057.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "50",
                     "color": "#DC2923",
-                    "name": "前卫霓红"
+                    "name": "50 - Rouge Neon",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dwcfdd8914/lipfinderquiz/194YSL/Light/194YSL_LIGHT50.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw5844f0a8/RCP-Custom-Cap/3365440332058.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "57",
                     "color": "#C7153D",
-                    "name": "明亮裸唇"
+                    "name": "57 - Pink Rhapsody",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dwaebfcacb/lipfinderquiz/194YSL/Light/194YSL_LIGHT57.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw6e464e02/RCP-Custom-Cap/3365440358447.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "58",
                     "color": "#B25D84",
-                    "name": "明亮淡紫"
-                },
-                {
-                    "id": "201",
-                    "color": "#B01020",
-                    "name": "红唇印象"
-                },
-                {
-                    "id": "202",
-                    "color": "#9E2C2C",
-                    "name": "疯狂玫瑰"
-                },
-                {
-                    "id": "203",
-                    "color": "#940220",
-                    "name": "摇滚红唇"
-                },
-                {
-                    "id": "205",
-                    "color": "#550001",
-                    "name": "天然浆果"
+                    "name": "58 - Mauve Nihiliste",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw7011ab63/lipfinderquiz/194YSL/Light/194YSL_LIGHT58.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dweb50b32f/RCP-Custom-Cap/3365440358515.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "72",
                     "color": "#9A1B2F",
-                    "name": ""
+                    "name": "72 - Rouge Vinyle",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dwa45d9c1d/lipfinderquiz/194YSL/Light/194YSL_LIGHT72.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwd9ad08bc/RCP-Custom-Cap/3614271332745.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "73",
                     "color": "#CF0410",
-                    "name": ""
+                    "name": "73 - Rhythm Red",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw792fb203/lipfinderquiz/194YSL/Light/194YSL_LIGHT73.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwcae4cc25/RCP-Custom-Cap/3614271332752.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "74",
                     "color": "#E0291B",
-                    "name": ""
-                },
-                {
-                    "id": "211",
-                    "color": "#E4004F",
-                    "name": "DECADENT"
-                },
-                {
-                    "id": "212",
-                    "color": "#A53B4F",
-                    "name": "ALTERNATIVEPLUM"
-                },
-                {
-                    "id": "213",
-                    "color": "#E94138",
-                    "name": "ORANGE SEVENTIES"
-                },
-                {
-                    "id": "215",
-                    "color": "#E34E90",
-                    "name": "LUST FOR PINK"
-                },
-                {
-                    "id": "216",
-                    "color": "#DE455A",
-                    "name": "RED CLASH"
-                },
-                {
-                    "id": "217",
-                    "color": "#DE455A",
-                    "name": "NUDE TROUBLE"
+                    "name": "74 - Orange Electro",
+                    "colorUri": "https://www.yslbeautyus.com/on/demandware.static/-/Sites-ysl-us-Library/default/dw22b12c24/lipfinderquiz/194YSL/Light/194YSL_LIGHT74.jpg",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw4532fcdd/RCP-Custom-Cap/3614271332769.jpg?sw=672&sh=888&sm=fit&q=70"
                 }
             ]
         }, {
-            "name": "莹亮纯魅美唇膏",
+            "name": "VOLUPTÉ TINT-IN-BALM",
             "lipsticks": [
                 {
                     "id": "11",
                     "color": "#D51768",
-                    "name": "玫色游戏"
+                    "name": "11 - Play Me Fuchsia",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwdd32ffdd/images/2017_Products/armswatches/VTIB-SEXIER-B-YSL-SWATCH-0225.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw2c0935c9/Images2019/TintinBalm2019/3614271558749.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "3",
                     "color": "#F18885",
-                    "name": "玫瑰轻语"
+                    "name": "3 - Call Me Rose",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw905c606f/images/2017_Products/armswatches/VTIB-FLIRTIER-B-YSL-SWATCH-0257.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwec0689e7/Images2019/TintinBalm2019/3614271558688.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "8",
                     "color": "#E52322",
-                    "name": "橙色放纵"
+                    "name": "8 - Catch Me Orange",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwdd32ffdd/images/2017_Products/armswatches/VTIB-SEXIER-B-YSL-SWATCH-0225.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw97576902/Images2019/TintinBalm2019/3614271559036.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "4",
                     "color": "#DA0140",
-                    "name": "桃红欲望"
-                },
-                {
-                    "id": "1",
-                    "color": "#C05B60",
-                    "name": "裸色幻想"
+                    "name": "4 - Desire Me Pink",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwe1d7cb17/images/2017_Products/armswatches/VTIB-HOTTER-B-YSL-SWATCH-0243.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw14a89d29/Images2019/TintinBalm2019/3614271558763.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "2",
                     "color": "#E87593",
-                    "name": "粉色嬉戏"
+                    "name": "2 - Tease Me Pink",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw905c606f/images/2017_Products/armswatches/VTIB-FLIRTIER-B-YSL-SWATCH-0257.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw43c73627/images/2017_Products/9001YSL/2/3614271558671.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "5",
                     "color": "#630F28",
-                    "name": "梅色撩拨"
+                    "name": "5 - Dare Me Plum",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwe1d7cb17/images/2017_Products/armswatches/VTIB-HOTTER-B-YSL-SWATCH-0243.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw35884943/Images2019/TintinBalm2019/3614271558695.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "6",
                     "color": "#CC0824",
-                    "name": "红色触碰"
+                    "name": "6 - Touch Me Red",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwe1d7cb17/images/2017_Products/armswatches/VTIB-HOTTER-B-YSL-SWATCH-0243.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw65d257e5/Images2019/TintinBalm2019/3614271558701.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "7",
                     "color": "#ED6D68",
-                    "name": "珊瑚挑逗"
+                    "name": "7 - Flirt Me Coral",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw905c606f/images/2017_Products/armswatches/VTIB-FLIRTIER-B-YSL-SWATCH-0257.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw78dce1ee/Images2019/TintinBalm2019/3614271558718.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "9",
                     "color": "#E73458",
-                    "name": "粉色纵情"
+                    "name": "9 - Tempt Me Pink",
+                    "colorUri": "",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw62585fb8/Images2019/TintinBalm2019/3614271558725.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "10",
                     "color": "#A00F30",
-                    "name": "绯红诱惑"
+                    "name": "10 - Seduce Me Pink",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwdd32ffdd/images/2017_Products/armswatches/VTIB-SEXIER-B-YSL-SWATCH-0225.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw71112364/Images2019/TintinBalm2019/3614271558732.jpg?sw=336&sh=444&sm=fit&q=70"
                 },
                 {
                     "id": "12",
                     "color": "#B81D3D",
-                    "name": "苺色暧昧"
+                    "name": "12 - Try Me Berry",
+                    "colorUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwe1d7cb17/images/2017_Products/armswatches/VTIB-HOTTER-B-YSL-SWATCH-0243.jpg?sw=336&sh=444&sm=fit&q=70",
+                    "lipstickUri": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw4d129163/Images2019/TintinBalm2019/3614271558756.jpg?sw=336&sh=444&sm=fit&q=70"
                 }
             ]
-        }, {
-            "name": "纯色唇釉叛逆裸唇",
-            "lipsticks": [
-                {
-                    "id": "12",
-                    "color": "#D0011E",
-                    "name": "红绯"
-                },
-                {
-                    "id": "46",
-                    "color": "#9F182C",
-                    "name": "深红色"
-                },
-                {
-                    "id": "50",
-                    "color": "#C64E5B",
-                    "name": "自然珊瑚"
-                },
-                {
-                    "id": "08",
-                    "color": "#C41304",
-                    "name": "唐橘"
-                },
-                {
-                    "id": "07",
-                    "color": "#CC2010",
-                    "name": "蜜柚"
-                },
-                {
-                    "id": "09",
-                    "color": "#D4020E",
-                    "name": "红釉"
-                },
-                {
-                    "id": "11",
-                    "color": "#D0010B",
-                    "name": "洋红"
-                },
-                {
-                    "id": "13",
-                    "color": "#CC030E",
-                    "name": "茜色"
-                },
-                {
-                    "id": "15",
-                    "color": "#D41B40",
-                    "name": "桃红"
-                },
-                {
-                    "id": "42",
-                    "color": "#DF294E",
-                    "name": "风情橘红"
-                },
-                {
-                    "id": "43",
-                    "color": "#E23E44",
-                    "name": "玫瑰歌谣"
-                },
-                {
-                    "id": "47",
-                    "color": "#BC3250",
-                    "name": "桃红色"
-                },
-                {
-                    "id": "48",
-                    "color": "#C13E30",
-                    "name": "橙色"
-                },
-                {
-                    "id": "49",
-                    "color": "#BB325C",
-                    "name": "梅子色"
-                },
-                {
-                    "id": "51",
-                    "color": "#951E53",
-                    "name": "玫红色"
-                },
-                {
-                    "id": "200",
-                    "color": "#DC9F8F",
-                    "name": "丰唇唇釉"
-                }
-            ]
-        }, {
-            "name": "莹亮绚染唇油",
-            "lipsticks": [
-                {
-                    "id": "05",
-                    "color": "#FF54A3",
-                    "name": "樱桃情人"
-                },
-                {
-                    "id": "04",
-                    "color": "#FF725D",
-                    "name": "粉恋玫瑰"
-                },
-                {
-                    "id": "06",
-                    "color": "#C072B5",
-                    "name": "蜜桃热恋"
-                },
-                {
-                    "id": "07",
-                    "color": "#FFD0DD",
-                    "name": "橙色邂逅"
-                },
-                {
-                    "id": "08",
-                    "color": "#FF7B1E",
-                    "name": "粉色憧憬"
-                }
-            ]
-        }, {
-            "name": "甜吻唇颊霜",
-            "lipsticks": [
-                {
-                    "id": "05",
-                    "color": "#E21949",
-                    "name": "洋红色"
-                },
-                {
-                    "id": "01",
-                    "color": "#DD2269",
-                    "name": "玫红色"
-                },
-                {
-                    "id": "02",
-                    "color": "#E05572",
-                    "name": "樱花粉"
-                },
-                {
-                    "id": "03",
-                    "color": "#D16479",
-                    "name": "裸粉色"
-                },
-                {
-                    "id": "04",
-                    "color": "#DF4A43",
-                    "name": "亮橘色"
-                },
-                {
-                    "id": "07",
-                    "color": "#DC6B5D",
-                    "name": "珊瑚橙"
-                },
-                {
-                    "id": "08",
-                    "color": "#DE6A78",
-                    "name": "珊瑚粉"
-                },
-                {
-                    "id": "09",
-                    "color": "#BF7083",
-                    "name": "珊瑚柚"
-                },
-                {
-                    "id": "12",
-                    "color": "#AD625E",
-                    "name": "摩卡色"
-                }
-            ]
-        }, {
-            "name": "莹亮灿金唇彩",
-            "lipsticks": [
-                {
-                    "id": "49",
-                    "color": "#D03370",
-                    "name": "骚动"
-                },
-                {
-                    "id": "207",
-                    "color": "#D11746",
-                    "name": "激情"
-                },
-                {
-                    "id": "03",
-                    "color": "#D34E59",
-                    "name": "憧憬"
-                },
-                {
-                    "id": "15",
-                    "color": "#AB3B48",
-                    "name": "突然"
-                },
-                {
-                    "id": "30",
-                    "color": "#DD6053",
-                    "name": "甜蜜"
-                },
-                {
-                    "id": "203",
-                    "color": "#FE645A",
-                    "name": "心跳"
-                },
-                {
-                    "id": "204",
-                    "color": "#FE5B56",
-                    "name": "意外"
-                },
-                {
-                    "id": "206",
-                    "color": "#B80722",
-                    "name": "炙热"
-                }
-            ]
+        
         }]
     }, {
-        "name": "香奈儿可可小姐",
+        "name": "CHANEL",
         "series": [{
-            "name": "唇膏水亮",
+            "name": "ROUGE COCO FLASH",
             "lipsticks": [
-                {
-                    "id": "69",
-                    "color": "#F17365",
-                    "name": "传情"
-                },
-                {
-                    "id": "46",
-                    "color": "#E87268",
-                    "name": "自由"
-                },
-                {
-                    "id": "122",
-                    "color": "#EA4D4A",
-                    "name": "CORAIL RADIEUX"
-                },
                 {
                     "id": "97",
                     "color": "#D53D49",
-                    "name": "洒脱"
-                },
-                {
-                    "id": "44",
-                    "color": "#FD4334",
-                    "name": "水漾纱丽"
-                },
-                {
-                    "id": "507",
-                    "color": "#E94648",
-                    "name": "倔强"
-                },
-                {
-                    "id": "114",
-                    "color": "#FF3220",
-                    "name": "SHIPSHAPE"
-                },
-                {
-                    "id": "91",
-                    "color": "#C12A33",
-                    "name": "波希米亚"
-                },
-                {
-                    "id": "84",
-                    "color": "#CE1220",
-                    "name": "对白"
-                },
-                {
-                    "id": "57",
-                    "color": "#EB6F79",
-                    "name": "冒险"
-                },
-                {
-                    "id": "116",
-                    "color": "#EC5193",
-                    "name": "MIGHTY"
+                    "name": "97 - Ferveur",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-coco-flash-hydrating-vibrant-shine-lip-colour-97-ferveur-0-1oz--basic-texture-174058-8810634805278.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-coco-flash-hydrating-vibrant-shine-lip-colour-97-ferveur-0-1oz--packshot-default-174058-8809249046558.jpg"
                 },
                 {
                     "id": "54",
                     "color": "#D1918D",
-                    "name": "卡柏男孩"
-                },
-                {
-                    "id": "79",
-                    "color": "#E86A75",
-                    "name": "传奇"
-                },
-                {
-                    "id": "497",
-                    "color": "#ED5A5E",
-                    "name": "勇敢"
-                },
-                {
-                    "id": "132",
-                    "color": "#E93A5B",
-                    "name": "ROSE RAVISSANT"
-                },
-                {
-                    "id": "87",
-                    "color": "#F8657F",
-                    "name": "约会"
-                },
-                {
-                    "id": "55",
-                    "color": "#F14C77",
-                    "name": "浪漫爱情"
-                },
-                {
-                    "id": "118",
-                    "color": "#EB2755",
-                    "name": "ENERGY"
+                    "name": "54 - Boy",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-coco-flash-hydrating-vibrant-shine-lip-colour-54-boy-0-1oz--basic-texture-174088-8810619568158.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-coco-flash-hydrating-vibrant-shine-lip-colour-54-boy-0-1oz--packshot-default-174088-8809244786718.jpg"
                 },
                 {
                     "id": "62",
                     "color": "#E12948",
-                    "name": "蒙特卡罗"
-                },
-                {
-                    "id": "134",
-                    "color": "#E7394A",
-                    "name": "RENOUVEAU"
-                },
-                {
-                    "id": "98",
-                    "color": "#CC4D68",
-                    "name": "率真"
+                    "name": "62 - Fire",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-coco-flash-hydrating-vibrant-shine-lip-colour-62-fire-0-1oz--basic-texture-174062-8810619863070.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-coco-flash-hydrating-vibrant-shine-lip-colour-62-fire-0-1oz--packshot-default-174062-8809248129054.jpg"
                 },
                 {
                     "id": "60",
                     "color": "#BB395F",
-                    "name": "安蒂岗妮"
-                },
-                {
-                    "id": "61",
-                    "color": "#C54463",
-                    "name": "幸福时光"
+                    "name": "60 - Beat",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-coco-flash-hydrating-vibrant-shine-lip-colour-60-beat-0-1oz--basic-texture-174060-8810619731998.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-coco-flash-hydrating-vibrant-shine-lip-colour-60-beat-0-1oz--packshot-default-174060-8809248391198.jpg"
                 }
             ]
         }, {
-            "name": "炫亮魅力唇膏",
+            "name": "ROUGE ALLURE",
             "lipsticks": [
                 {
                     "id": "90",
                     "color": "#FC6E48",
-                    "name": "活泼"
+                    "name": "90 - Pimpante",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-luminous-intense-lip-colour-90-pimpante-35g.3145891609004.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-luminous-intense-lip-colour-90-pimpante-35g.3145891609004.jpg"
                 },
                 {
                     "id": "96",
                     "color": "#FA421C",
-                    "name": "古灵精怪"
+                    "name": "96 - Excentrique",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-luminous-intense-lip-colour-96-excentrique-35g.3145891609608.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-luminous-intense-lip-colour-96-excentrique-35g.3145891609608.jpg"
                 },
                 {
                     "id": "182",
                     "color": "#E02E20",
-                    "name": "VIBRANTE"
+                    "name": "182 - Vibrante",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-182-vibrante-0-12oz--basic-texture-160182-8802147434526.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-182-vibrante-0-12oz--packshot-default-160182-8804334108702.jpg"
                 },
                 {
                     "id": "152",
                     "color": "#E82F2C",
-                    "name": "隐约"
+                    "name": "152 - Insaisissable",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-152-insaisissable-0-12oz--basic-texture-160152-8811190812702.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-152-insaisissable-0-12oz--packshot-default-160152-8800038191134.jpg"
                 },
                 {
                     "id": "172",
                     "color": "#E40021",
-                    "name": "ROUGE REBELLE"
-                },
-                {
-                    "id": "135",
-                    "color": "#99413D",
-                    "name": "谜情"
-                },
-                {
-                    "id": "99",
-                    "color": "#8A010D",
-                    "name": "海盗"
+                    "name": "172 - Rouge Rebelle",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-172-rouge-rebelle-0-12oz--basic-texture-160172-8809786540062.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-172-rouge-rebelle-0-12oz--packshot-default-160172-8800035438622.jpg"
                 },
                 {
                     "id": "176",
                     "color": "#A80D1F",
-                    "name": "INDÉPENDANTE"
+                    "name": "176 - Independante",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-176-independante-0-12oz--basic-texture-160176-8804336304158.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-176-independante-0-12oz--packshot-default-160176-8804333912094.jpg"
                 },
                 {
                     "id": "169",
                     "color": "#8E2622",
-                    "name": "ROUGE TENTATION"
+                    "name": "169 - Rouge Tentation",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-169-rouge-tentation-0-12oz--basic-texture-160169-8802157199390.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-169-rouge-tentation-0-12oz--packshot-default-160169-8804334534686.jpg"
                 },
                 {
                     "id": "91",
                     "color": "#E45661",
-                    "name": "吸引力"
-                },
-                {
-                    "id": "179",
-                    "color": "#ED6160",
-                    "name": "LUMINOUS"
+                    "name": "91 - Seduisante",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-91-seduisante-0-12oz--basic-texture-160910-8802151039006.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-91-seduisante-0-12oz--packshot-default-160910-8804333748254.jpg"
                 },
                 {
                     "id": "94",
                     "color": "#FC3E6E",
-                    "name": "着迷"
-                },
-                {
-                    "id": "138",
-                    "color": "#D93E5E",
-                    "name": "激昂"
+                    "name": "94 - Extatique",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-94-extatique-0-12oz--basic-texture-160940-8802145533982.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-94-extatique-0-12oz--packshot-default-160940-8800037044254.jpg"
                 },
                 {
                     "id": "136",
                     "color": "#EF4246",
-                    "name": "悠扬"
-                },
-                {
-                    "id": "178",
-                    "color": "#BF5363",
-                    "name": "NEW PRODIGIOUS"
+                    "name": "136 - Melodieuse",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-136-melodieuse-0-12oz--basic-texture-160136-8802144845854.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-136-melodieuse-0-12oz--packshot-default-160136-8800038027294.jpg"
                 },
                 {
                     "id": "158",
                     "color": "#B24957",
-                    "name": "VIREVOLTANTE"
+                    "name": "158 - Virevoltante",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-158-virevoltante-0-12oz--basic-texture-160158-8804336992286.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-158-virevoltante-0-12oz--packshot-default-160158-8800032555038.jpg"
                 },
                 {
                     "id": "93",
                     "color": "#CD0043",
-                    "name": "兴奋"
-                },
-                {
-                    "id": "165",
-                    "color": "#C82C40",
-                    "name": "ÉBLOUISSANTE"
-                },
-                {
-                    "id": "184",
-                    "color": "#C80F2E",
-                    "name": "INCANTEVOLE"
-                },
-                {
-                    "id": "102",
-                    "color": "#B20032",
-                    "name": "悸动"
+                    "name": "93 - Exaltee",
+                    "colorUri": "https://www.chanel.com/images////q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-93-exaltee-0-12oz--basic-texture-160930-8806529663006.jpg",
+                    "lipstickUri": "https://www.chanel.com/images///w_0.38,h_0.38,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/rouge-allure-luminous-intense-lip-colour-93-exaltee-0-12oz--packshot-default-160930-8806530088990.jpg"
                 }
             ]
         }, {
-            "name": "炫亮魅力唇膏",
-            "lipsticks": [
-                {
-                    "id": "90",
-                    "color": "#E1527E",
-                    "name": "IMAGINATION"
-                }
-            ]
-        }, {
-            "name": "炫亮魅力唇膏丝绒",
+            "name": "ROUGE ALLURE VELVET",
             "lipsticks": [
                 {
                     "id": "65",
                     "color": "#E17062",
-                    "name": "L'ARISTOCRATICA"
+                    "name": "65 - L'ARISTOCRATICA",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-65-laristocratica-3_5g.3145891626506.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-65-laristocratica-3_5g.3145891626506.jpg"
                 },
                 {
                     "id": "64",
                     "color": "#E84632",
-                    "name": "FIRST LIGHT"
+                    "name": "64 - FIRST LIGHT",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-64-first-light-3_5g.3145891626407.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-64-first-light-3_5g.3145891626407.jpg"
                 },
                 {
                     "id": "57",
                     "color": "#BE2B24",
-                    "name": "ROUGE FEU"
+                    "name": "57 - ROUGE FEU",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-57-rouge-feu-3_5g.3145891625707.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-57-rouge-feu-3_5g.3145891625707.jpg"
                 },
                 {
                     "id": "66",
                     "color": "#E1112A",
-                    "name": "L'INDOMABILE"
+                    "name": "66 - L'INDOMABILE",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-66-lindomabile-3_5g.3145891626605.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-66-lindomabile-3_5g.3145891626605.jpg"
                 },
                 {
                     "id": "51",
                     "color": "#9E333D",
-                    "name": "震撼"
-                },
-                {
-                    "id": "56",
-                    "color": "#B23030",
-                    "name": "ROUGE CHARNEL"
+                    "name": "51 - LA BOULEVERSANTE",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-51-la-bouleversante-3_5g.3145891625103.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-51-la-bouleversante-3_5g.3145891625103.jpg"
                 },
                 {
                     "id": "38",
                     "color": "#892833",
-                    "name": "迷惑"
+                    "name": "38 - LA FASCINANTE",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-38-la-fascinante-3_5g.3145891623802.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-38-la-fascinante-3_5g.3145891623802.jpg"
                 },
                 {
                     "id": "58",
                     "color": "#822E2E",
-                    "name": "ROUGE VIE"
-                },
-                {
-                    "id": "63",
-                    "color": "#802932",
-                    "name": "NIGHTFALL"
-                },
-                {
-                    "id": "61",
-                    "color": "#EC7879",
-                    "name": "LA SECRÈTE"
+                    "name": "58 - ROUGE VIE",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-58-rouge-vie-3_5g.3145891625806.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-58-rouge-vie-3_5g.3145891625806.jpg"
                 },
                 {
                     "id": "42",
                     "color": "#FE697F",
-                    "name": "显眼"
+                    "name": "42 - L'ECLANTANTE",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-42-leclatante-3_5g.3145891624205.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-42-leclatante-3_5g.3145891624205.jpg"
                 },
                 {
                     "id": "43",
                     "color": "#FA5059",
-                    "name": "亲爱"
+                    "name": "43 - LA FAVORITE",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-43-la-favorite-3_5g.3145891624304.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-43-la-favorite-3_5g.3145891624304.jpg"
                 },
                 {
                     "id": "46",
                     "color": "#C92D38",
-                    "name": "慧黠"
+                    "name": "46 - LA MALICIEUSE",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-46-la-malicieuse-3_5g.3145891624601.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-46-la-malicieuse-3_5g.3145891624601.jpg"
                 },
                 {
                     "id": "37",
                     "color": "#C43759",
-                    "name": "纵情"
+                    "name": "37 - L'EXUBERANTE",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-37-lexuberante-3_5g.3145891623703.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-37-lexuberante-3_5g.3145891623703.jpg"
                 },
                 {
                     "id": "44",
                     "color": "#F06FA5",
-                    "name": "歌剧名伶"
-                },
-                {
-                    "id": "50",
-                    "color": "#9F2F56",
-                    "name": "浪漫幻想"
+                    "name": "44 - LA DIVA",
+                    "colorUri": "https://www.chanel.com/fnbv3/image/460/chanel__com_type2/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-44-la-diva-35g.3145891624403.jpg",
+                    "lipstickUri": "https://www.chanel.com/fnbv3/image/full/chanel__com_type1/skus_full/rouge-allure-velvet-luminous-matte-lip-colour-44-la-diva-35g.3145891624403.jpg"
                 }
             ]
         }]
